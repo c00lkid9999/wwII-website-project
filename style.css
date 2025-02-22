@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body {background-color: maroon; padding: 0px}
+body {background-color: maroon; padding: 0px; margin: 0px}
 h1 {
   color: gold;
   font-family: Impact;
@@ -121,7 +121,7 @@ a:hover {color: lightyellow}
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  height: 65%;
   border: 10px groove gold;
   border-radius: 20px;
 }
