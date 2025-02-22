@@ -32,12 +32,17 @@ p {
 .footer p {
   color: #7d5454;
   padding-top: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 .footer h3 {
   color: #7d5454;
   padding-top: 20px;
   padding-bottom: 5px;
+}
+.footer a {
+  color: #7d5454;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 a {
   color: gold;
@@ -45,52 +50,6 @@ a {
   font-weight: 300;
 }
 a:hover {color: lightyellow}
-.topnav {
-  background-color: gold;
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: maroon;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a:hover {
-  background-color: white;
-  color: black;
-}
-.topnav a.active {
-  background-color: lightyellow;
-  color: maroon;
-}
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-  }
-}
-.topnav.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-}
-@media screen and (min-width: 601px) {
-  .topnav a.icon {
-    display: none;
-  }
-}
 .flex-container {
   display: flex;
   flex-flow: row wrap;
@@ -165,4 +124,11 @@ a:hover {color: lightyellow}
 .analysis {
   background-color:#311b01;
   width: 100%;
+}
+.analysis h2 {
+  background-color:#9c5b10;
+  padding: 10px;
+}
+.analysis p {
+  padding: 5px;
 }
