@@ -60,6 +60,7 @@ a:hover {color: lightyellow}
   flex-direction: column;
   gap: 5px;
   background-color: #490e0e;
+  margin: 10px;
 }
 .flex-item img {
   width: 200px;
@@ -83,6 +84,7 @@ a:hover {color: lightyellow}
   height: 65%;
   border: 10px groove gold;
   border-radius: 20px;
+  max-width: 80%;
 }
 .img-container {
   padding: 20px;
@@ -126,9 +128,11 @@ a:hover {color: lightyellow}
   width: 100%;
 }
 .analysis h2 {
-  background-color:#9c5b10;
+  color:#864700;
   padding: 10px;
+  text-align: center;
 }
 .analysis p {
-  padding: 5px;
+  padding: 10px;
+  color:lightgray
 }
