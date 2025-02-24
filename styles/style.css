@@ -159,3 +159,30 @@ a:hover {color: lightyellow}
 .img-link:hover {
   opacity: 0.5;
 }
+.battles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  justify-items: stretch;
+}
+.battles-item {
+  border: 5px solid gold;
+}
+.empty-space {
+  background-image: linear-gradient(to bottom right, maroon, #490e0e)
+}
+.empty-space-flipped {
+  background-image: linear-gradient(to top left, maroon, #490e0e)
+}
+.battles-header {
+  justify-self: center;
+  border: 0px;
+  margin: 10px;
+  display: table;
+  text-align: center;
+}
+.battles-header h1 {
+  display: table-cell;
+  vertical-align: middle;
+}
