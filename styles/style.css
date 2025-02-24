@@ -165,7 +165,7 @@ a:hover {color: lightyellow}
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
   justify-items: stretch;
-  width: 100vw
+  width: 100%;
 }
 .battles-item {
   border: 5px solid gold;
