@@ -136,14 +136,6 @@ a:hover {color: lightyellow}
   padding: 10px;
   color:lightgray
 }
-.collage {
-  display: flex;
-  flex-flow: row wrap;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: stretch;
-  justify-content: center;
-}
 .img-link {
   opacity: 1;
   transition: opacity 0.3;
@@ -152,6 +144,13 @@ a:hover {color: lightyellow}
   padding: 0px;
   margin: 0px;
   font-size: 0px;
+  width: 100%;
+  height: 100%;
+}
+.img-link img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .img-link-background {
   background-color: white;
@@ -175,15 +174,4 @@ a:hover {color: lightyellow}
 }
 .empty-space-flipped {
   background-image: linear-gradient(to top left, maroon, #490e0e)
-}
-.battles-header {
-  justify-self: center;
-  border: 0px;
-  margin: 10px;
-  display: table;
-  text-align: center;
-}
-.battles-header h1 {
-  display: table-cell;
-  vertical-align: middle;
 }
