@@ -175,3 +175,11 @@ a:hover {color: lightyellow}
 .empty-space-flipped {
   background-image: linear-gradient(to top left, maroon, #490e0e)
 }
+.button {
+  border: 5px solid gold;
+  padding: 10px;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  border-radius: 15px;
+}
