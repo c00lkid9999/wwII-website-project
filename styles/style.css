@@ -81,7 +81,7 @@ a:hover {color: lightyellow}
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 65%;
+  max-height: 65vh;
   border: 10px groove gold;
   border-radius: 20px;
   max-width: 80%;
